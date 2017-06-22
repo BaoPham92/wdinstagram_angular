@@ -1,0 +1,7 @@
+<h1>Posts</h1>
+
+<div ng-repeat="photo in vm.photos">
+	<a data-ui-sref="InstaShow({id: photo.id})"><img src="{{photo.photo_url}}"></a>
+		<p> {{post.author}} </p>
+			<p> {{post.body}} </p>
+</div>
